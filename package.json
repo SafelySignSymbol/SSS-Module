@@ -1,0 +1,34 @@
+{
+  "name": "sss-module",
+  "version": "1.0.0",
+  "description": "SSS Extension's npm module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SafelySignSymbol/SSS-Module.git"
+  },
+  "keywords": [
+    "Symbol",
+    "SSS_Extenison",
+    "Web3",
+    "dApps"
+  ],
+  "author": "inatatsu <inatatsu.0906@gmail.com> (http://www.inatatsu.com/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SafelySignSymbol/SSS-Module/issues"
+  },
+  "homepage": "https://github.com/SafelySignSymbol/SSS-Module#readme",
+  "dependencies": {
+    "symbol-sdk": "2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}

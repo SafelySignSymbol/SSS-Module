@@ -13,7 +13,7 @@ npm install sss-module
 # Usage
 
 ```typescript
-import { getActiveAddress } from 'inatatsu-test-module'
+import { getActiveAddress } from 'sss-module'
 
 const addr = getActiveAddress()
 

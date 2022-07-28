@@ -25,10 +25,8 @@
     "url": "https://github.com/SafelySignSymbol/SSS-Module/issues"
   },
   "homepage": "https://github.com/SafelySignSymbol/SSS-Module#readme",
-  "dependencies": {
-    "symbol-sdk": "2.0.0"
-  },
   "devDependencies": {
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "symbol-sdk": "2.0.0"
   }
 }
